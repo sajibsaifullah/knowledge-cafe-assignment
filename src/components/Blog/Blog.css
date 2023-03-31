@@ -1,6 +1,6 @@
 .single-card{
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .cover-image{
     width: 100%;
@@ -12,6 +12,9 @@
     border-radius: 50%;
 }
 .single-card a{
+    color: teal;
+}
+.single-card a:hover{
     text-decoration: underline;
     color: blue;
 }

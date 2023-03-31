@@ -4,10 +4,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBookmark } from "@fortawesome/free-solid-svg-icons";
 
 const Blog = (props) => {
-  const blog = props.blog;
+    const blog = props.blog;
+    console.log(blog);
+    
 
   return (
-    <div className="single-card my-5">
+    <div className="single-card my-5 border border-indigo-200 rounded-lg p-2">
       <img
         className="cover-image mb-3"
         src={blog.images.blogCoverImage}

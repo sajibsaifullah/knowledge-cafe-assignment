@@ -1,7 +1,8 @@
 import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
-import Blog from "../../Blog/Blog";
+import Blog from "../Blog/Blog";
+import Sidebar from "../Sidebar/Sidebar";
 
 const Blogs = () => {
   const [blogs, setBlogs] = useState([]);
@@ -18,8 +19,8 @@ const Blogs = () => {
           <Blog key={blog.id} blog={blog}></Blog>
         ))}
       </div>
-      <div className="bg-red-400 col-span-3">
-        <h2>This is side bar</h2>
+      <div className="col-span-3">
+        <Sidebar></Sidebar>
       </div>
     </div>
   );

@@ -3,8 +3,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import Home from "./components/Home/Home";
-import Blogs from "./components/Home/Blogs/Blogs";
-
+import Blogs from "./components/Blogs/Blogs";
 function App() {
 
   return (
