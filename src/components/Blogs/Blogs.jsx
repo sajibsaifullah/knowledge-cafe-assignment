@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import Blog from "../Blog/Blog";
 import Sidebar from "../Sidebar/Sidebar";
+import Swal from 'sweetalert';
 
 const Blogs = () => {
   const [blogs, setBlogs] = useState([]);
@@ -20,9 +21,34 @@ const Blogs = () => {
     setStore(newStore);
   };
 
-  const handleBookmark = (blog) => {
+  const handleBookmark = (blog, id) => {
     const newBookmark = [...bookmark, blog];
     setBookmark(newBookmark);
+
+
+    const previousBookmark = JSON.parse(localStorage.getItem("bookmark"));
+    let bookmarked = [];
+    if (previousBookmark) {
+      const isBookmarked = previousBookmark.find((b) => b.id == id);
+      console.log(isBookmarked);
+      if (isBookmarked) {
+        Swal({
+          title: 'Alert!',
+          text: 'already bokmakred.',
+          icon: 'error',
+          confirmButtonText: 'OK'
+        });
+
+
+      } else {
+        bookmarked.push(...previousBookmark, blog);
+        localStorage.setItem("bookmark", JSON.stringify(bookmarked));
+      }
+    } else {
+      bookmarked.push(blog);
+      localStorage.setItem("bookmark", JSON.stringify(bookmarked));
+    }
+    
   };
 
   return (

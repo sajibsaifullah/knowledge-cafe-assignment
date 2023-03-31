@@ -25,7 +25,7 @@ const Blog = (props) => {
         </div>
         <p>
           {blog.readTime} min read &nbsp;
-          <a onClick={() => handleBookmark(props.blog)} href="#">
+          <a onClick={() => handleBookmark(props.blog, props.blog.id)} href="#">
             <FontAwesomeIcon icon={faBookmark} />
           </a>
         </p>
