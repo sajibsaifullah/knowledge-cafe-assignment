@@ -30,7 +30,7 @@ const Faq = () => {
       </div>
       <div>
         <h4 className="text-xl font-bold">
-          Q3: Without data loading, what's the others functions of useEffect?
+          Q3: What is the purpose of useEffect other than fetching data?
         </h4>
         <p className="ps-2 pb-3">
           <span className="font-semibold">Ans:</span>
