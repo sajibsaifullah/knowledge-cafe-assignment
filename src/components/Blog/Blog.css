@@ -1,6 +1,6 @@
 .single-card{
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 .cover-image{
     width: 100%;
@@ -13,4 +13,5 @@
 }
 .single-card a{
     text-decoration: underline;
+    color: blue;
 }
