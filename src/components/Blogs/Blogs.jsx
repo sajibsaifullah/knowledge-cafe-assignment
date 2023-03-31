@@ -34,7 +34,7 @@ const Blogs = () => {
       if (isBookmarked) {
         Swal({
           title: 'Alert!',
-          text: 'already bokmakred.',
+          text: 'already bookmakred.',
           icon: 'error',
           confirmButtonText: 'OK'
         });
