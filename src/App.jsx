@@ -2,16 +2,15 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-import { Button } from "react-bootstrap";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="text-center">
-      <button type="button" class="btn btn-primary">
-        Primary
-      </button>
+    <div className="App">
+      <h1 className="text-3xl font-bold underline text-center">Hello world!</h1>
+      <button className="btn btn-secondary">Button</button>
+      <button className="btn btn-accent">Button</button>
     </div>
   );
 }

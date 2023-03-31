@@ -1,5 +1,5 @@
 {
-  "name": "knoledge-cafe-assignment",
+  "name": "my-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,15 +9,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "bootstrap": "^5.2.3",
+    "daisyui": "^2.51.5",
     "react": "^18.2.0",
-    "react-bootstrap": "^2.7.2",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react": "^3.1.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.0",
     "vite": "^4.2.0"
   }
 }
