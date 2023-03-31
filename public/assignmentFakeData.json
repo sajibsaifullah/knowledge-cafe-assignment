@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "authorName": "Jhankar Mahbub",
+    "blogTitle": "How to Become a Programmer",
+    "images": {
+      "blogCoverImage": "https://www.programming-hero.com/blog/assets/images/blog/how-to-become-a-programmer.png",
+      "authorImage": "https://ds.rokomari.store/rokomari110/people/f05844bf5ab4_40266.jpg"
+    },
+    "readTime": 15,
+    "publishDate": "2019-09-03"
+  },
+  {
+    "id": 2,
+    "authorName": "Gias Uddin",
+    "blogTitle": "Conquer Your Local Storage Fear",
+    "images": {
+      "blogCoverImage": "https://img.freepik.com/premium-photo/abstract-modern-tech-programming-code-screen-developer-c-programming-language-computer-script-technology-background-software_505353-472.jpg?w=826",
+      "authorImage": "https://avatars.githubusercontent.com/u/75516131?v=4"
+    },
+    "readTime": 30,
+    "publishDate": "2023-03-05"
+  },
+  {
+    "id": 3,
+    "authorName": "Rokibul Hasan Rokib",
+    "blogTitle": "Building React Components With DaisyUI",
+    "images": {
+      "blogCoverImage": "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010125.jpg?size=626&ext=jpg&ga=GA1.1.437290463.1648995511&semt=sph",
+      "authorImage": "https://avatars.githubusercontent.com/u/96827394?v=4"
+    },
+    "readTime": 20,
+    "publishDate": "2023-01-06"
+  },
+  {
+    "id": 4,
+    "authorName": "Mehedy Hasan Linkon",
+    "blogTitle": "Mastering the Fundamentals of JavaScript: A Beginner’s Guide",
+    "images": {
+      "blogCoverImage": "https://img.freepik.com/free-vector/programmers-using-javascript-programming-language-computer-tiny-people-javascript-language-javascript-engine-js-web-development-concept-bright-vibrant-violet-isolated-illustration_335657-986.jpg?w=740&t=st=1680221897~exp=1680222497~hmac=d4d3f0ba803516ff54df484f4af70cfa03adaf9cb05ed98308f01cc5eba5b2db",
+      "authorImage": "https://avatars.githubusercontent.com/u/46818802?v=4"
+    },
+    "readTime": 25,
+    "publishDate": "2023-02-13"
+  }
+]
