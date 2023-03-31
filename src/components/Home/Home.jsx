@@ -3,7 +3,7 @@ import React from "react";
 const Home = () => {
   return (
     <div className="container mx-auto">
-      <div className="navbar bg-base-100 flex flex-col md:flex-row">
+      <div className="navbar bg-slate-200 flex flex-col md:flex-row rounded-lg">
         <div className="flex-1">
           <a className="btn btn-ghost normal-case text-3xl font-bold">Knowledge Cafe</a>
         </div>
