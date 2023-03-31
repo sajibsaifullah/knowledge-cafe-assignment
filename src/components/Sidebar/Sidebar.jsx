@@ -25,7 +25,7 @@ const Sidebar = ({ store, bookmark }) => {
         </h2>
         <div>
           {bookmark.map((b) => (
-            <p className="text-2xl font-semibold px-4 my-2 mx-2 bg-slate-200 rounded-md">
+            <p className="text-2xl font-semibold px-4 my-2 mx-2 py-3 bg-slate-200 rounded-md">
               {b.blogTitle}
             </p>
           ))}
