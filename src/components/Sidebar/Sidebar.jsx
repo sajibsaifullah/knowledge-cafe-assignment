@@ -13,7 +13,7 @@ const Sidebar = ({ store, bookmark }) => {
   
 
   return (
-    <div className="px-3">
+    <div className="px-3 sticky top-0">
       <div className="border border-indigo-400 bg-slate-100 rounded-md my-5">
         <h2 className="text-center text-xl font-semibold my-2 text-blue-800">
           Spent time on read: <span>{watchTime}</span> min

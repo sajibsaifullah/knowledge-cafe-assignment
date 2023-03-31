@@ -25,14 +25,14 @@ const Blog = (props) => {
         </div>
         <p>
           {blog.readTime} min read &nbsp;
-          <a onClick={() => handleBookmark(props.blog, props.blog.id)} href="#">
+          <a onClick={() => handleBookmark(props.blog, props.blog.id)} className="hover:cursor-pointer">
             <FontAwesomeIcon icon={faBookmark} />
           </a>
         </p>
       </div>
       <h1 className="text-3xl font-bold my-3">{blog.blogTitle}</h1>
       <p className="mb-2">#beginners &nbsp; &nbsp; #programming</p>
-      <a onClick={() => handleSidebar(props.blog)} href="#">
+      <a onClick={() => handleSidebar(props.blog)} className="hover:cursor-pointer">
         Mark as read
       </a>
     </div>
