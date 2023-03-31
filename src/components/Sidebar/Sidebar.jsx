@@ -8,7 +8,7 @@ const Sidebar = ({ store, bookmark }) => {
 
   let countBookmark = 0;
     for (const singleBookmark of bookmark) {
-    countBookmark = countBookmark + 1;
+        countBookmark = countBookmark + 1;
   }
   
 

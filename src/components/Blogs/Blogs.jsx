@@ -21,7 +21,6 @@ const Blogs = () => {
   };
 
   const handleBookmark = (blog) => {
-    
     const newBookmark = [...bookmark, blog];
     setBookmark(newBookmark);
   };
